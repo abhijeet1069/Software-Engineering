@@ -28,7 +28,8 @@ types of systems as technology evolves. Having fifteen years of experience worki
 waterfallfashion will not get me a senior position in a modern company developing mobile applications in an Agile 
 fashion.
 
-Seniority is also relative. When trying to identify how senior a developer is, we need to ask ourselves the following questions: senior compared to whom? In which technology? In which context?
+Seniority is also relative. When trying to identify how senior a developer is, we need to ask ourselves the following 
+questions: senior compared to whom? In which technology? In which context?
     There is no such thing as a senior or junior developer. Developers may be very experienced in developing enterprise
 Java applications for large organizations but totally inexperienced in writing games in JavaScript.
 
