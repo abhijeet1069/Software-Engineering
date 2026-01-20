@@ -41,8 +41,12 @@ The tests we write should be
 
 - TDD is a great way to write specifications. Also, it can perform regression testing too, when I run all the tests
   I know my new feature hasn't broken old features.
+
 - I can know in advance how much time my code takes to execute. Thus, I push only the faster code in production.
+
 - When I know the tests, I can update my code to a new faster algorithm, and everything will just work fine.
+
 - My code will automatically be decoupled because I have to make it decoupled to run the test.
-- I have confidence when I push code in production that this is fast and correct code, an I have proof of that. If it
+
+- I have confidence when I push code in production that this is fast and correct code, and I have proof of that. If it
   fails in production, I can add that failing case, test fast and ship in production fast, and have minimum outage.

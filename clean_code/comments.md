@@ -65,7 +65,7 @@ public SellResponse beginSellItem(SellRequest sellRequest)
 throws ManagedComponentException
 ```
 
-Comments should say things that the code cannot say for itself.
+**Comments should say things that the code cannot say for itself.**
 
 ## Bad comments
 

@@ -30,7 +30,9 @@ Producing crap does not make you go faster, it makes you go slower. This is the 
 programmer for 20 or 30 years. There is no such thing as quick and dirty. Anything dirty is slow.
 The only way to go fast, is to go well.
 
-## Circle of life XP
+## Extreme Programming
+
+Flaccid Agile is exactly what happens when teams keep the outer rings but hollow out the center.
 
 ![Circle of life](./pic/circle_of_life.png)
 
@@ -60,18 +62,27 @@ Middle ring of the Circle of Life presents the team-facing practices.
 
 Represents the technical practices that guide and constrain the programmers to ensure the highest technical quality.
 
-- Pairing : It is the practice that keeps the technical team sharing knowledge, reviewing, and collaborating at a level
-            that drives innovation and accuracy.
-        Pair programming strategy:
-         - Driver-Navigator: One person (Driver) writes the code while the other (Navigator) reviews and
-              suggests improvements.
-         - Ping-Pong Pairing: One writes a test, and the other writes code to make the test pass, alternating
-              roles frequently.
-         - Mob Programming: If there are more than two developers, work as a team with clear rotations.
 - Simple Design : It is the practice that guides the team to prevent wasted effort.
+
 - Refactoring : It encourages continual improvement and refinement of all work products.
+
 - Test Driven Development : It is the safety line that the technical team uses to go quickly while maintaining the
                             highest quality.
+
+- Pairing : It is the practice that keeps the technical team sharing knowledge, reviewing, and collaborating at a level
+            that drives innovation and accuracy.
+
+#### Pair programming strategy:
+
+- Driver-Navigator: One person (Driver) writes the code while the other (Navigator) reviews and
+              suggests improvements.
+
+- Ping-Pong Pairing: One writes a test, and the other writes code to make the test pass, alternating
+              roles frequently.
+
+- Mob Programming: If there are more than two developers, work as a team with clear rotations.
+
+
 
 ## XP with Agile
 
@@ -98,7 +109,8 @@ At the end of each iteration all the coding, all the testing, all the documentat
 stories should be implemented.
 
 Is it possible for the system to be technically deployable every week or two?
-Of course it is. The team simply has to pick a batch of stories that is small enough to allow them to complete all the deployment readiness tasks before the end of the iteration. They’d better be automating the vast majority of their
+Of course it is. The team simply has to pick a batch of stories that is small enough to allow them to complete all the 
+deployment readiness tasks before the end of the iteration. They’d better be automating the vast majority of their
 testing, too.
 
 ### Stable productivity
@@ -182,32 +194,40 @@ Learn to teach each other.
 ### Customer Bill of rights
 
 The customer bill of rights includes the following:
-• You have the right to an overall plan and to know what can be accomplished when and at what cost.
-• You have the right to get the most possible value out of every iteration.
-• You have the right to see progress in a running system, proven to work by passing repeatable tests that you specify.
-• You have the right to change your mind, to substitute functionality, and to change priorities without paying exorbitant
- costs.
-• You have the right to be informed of schedule and estimate changes, in time to choose how to reduce the scope to meet
+- You have the right to an overall plan and to know what can be accomplished when and at what cost.
+
+- You have the right to get the most possible value out of every iteration.
+
+- You have the right to see progress in a running system, proven to work by passing repeatable tests that you specify.
+
+- You have the right to change your mind, to substitute functionality, and to change priorities without paying 
+    exorbitant costs.
+
+- You have the right to be informed of schedule and estimate changes, in time to choose how to reduce the scope to meet
 a required date. You can cancel at any time and be left with a useful working system reflecting investment to date.
 
 ### Developer Bill of Rights
 
 The developer bill of rights includes the following:
 
-• You have the right to know what is needed with clear declarations of priority.
+- You have the right to know what is needed with clear declarations of priority.
     Developers are entitled to precision in the requirements and in the importance of those requirements.
-• You have the right to produce high-quality work at all times.
+
+- You have the right to produce high-quality work at all times.
     Business has no right to force developers to ruin their professional reputations or violate their professional
     ethics.
-• You have the right to ask for and receive help from peers, managers, and customers.
+
+- You have the right to ask for and receive help from peers, managers, and customers.
     This help comes in many forms. Programmers may ask each other for help solving a problem, checking a result, or
     learning a framework, among other things. Developers might ask customers to better explain requirements or
     to refine priorities. Mostly, this statement gives programmers the right to communicate.
     And with that right to ask for help, comes the responsibility to give help when asked.
-• You have the right to make and update your own estimates.
+
+- You have the right to make and update your own estimates.
     No one can estimate a task for you. And if you estimate a task, you can always change your estimate when new factors
     come to light.
-• You have the right to accept your responsibilities instead of having them assigned to you.
+
+- You have the right to accept your responsibilities instead of having them assigned to you.
     Professionals accept work, they are not assigned work. A professional developer has every right to say “no” to a
     particular job or task. It may be that the developer does not feel confident in their ability to complete the task,
     or it may be that the developer believes the task better suited for someone else. Or, it may be that the developer

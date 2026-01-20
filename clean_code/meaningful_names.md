@@ -4,7 +4,7 @@ Clean code is not written by following a set of rules. You don’t become a soft
 a list of heuristics. Professionalism and craftsmanship come from values that drive
 disciplines.
 
-## Choose Descrptive names
+## Choose Descriptive names
 
 Don’t be too quick to choose a name. Make sure the name is descriptive. Remember that
 meanings tend to drift as software evolves, so frequently reevaluate the appropriateness of

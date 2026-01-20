@@ -8,6 +8,8 @@ to their objects, exposing their private variables as if they were public?
 
 ## Law of Demeter (LoD)
 
+**A method should talk only to its immediate friends, not to strangers.**
+
 The Law of Demeter, also called the principle of least knowledge, is a design guideline for building 
 more maintainable and loosely coupled object-oriented code. This also helps to prevent transitive navigation.
 
@@ -126,8 +128,6 @@ public class Main {
 	}
 	
 	```
-	
-
 
 ## Don't put business logic into your data Structures
 

@@ -15,20 +15,10 @@ SnakeYAML -> ServiceClass -> Rest of client code
 We could had ommitted Service class, but then SakeYAML would perforate into rest of client code.
 And now when snake YAML changed, your code has to change. 
 
-```java
- // a simple learning test for logging
-@Test
-    public void isLogGenerating(){
-        LogUtil.logInfo("Tests executed");
-    }
-}
-
-```
-
 ## Adapter Pattern
 
-The Adapter Pattern is like a translator between incompatible interfaces, allowing two otherwise incompatible classes to work together 
-seamlessly — all without modifying their existing code.
+The Adapter Pattern is like a translator between incompatible interfaces, allowing two otherwise incompatible classes 
+to work together seamlessly — all without modifying their existing code.
 
 How it works
 
@@ -38,7 +28,6 @@ How it works
 - The adapter returns results (if any) back to the client in the expected format.
 
 ## Inversion of Control
-
 
 ```C
 

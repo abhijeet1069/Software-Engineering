@@ -1,5 +1,7 @@
 # Business practices
 
+This is the outermost layer of extreme programming.
+
 ## Stories and Points
 
 A user story is an abbreviated description of a feature of the system, told from the point of view of a user.

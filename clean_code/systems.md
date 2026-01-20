@@ -25,6 +25,6 @@ This is the general case of Law of Demeter
 
 Cleanly handle cross-cutting concerns (like logging, security, etc.)
 
-##Testability of systems	
+## Testability of systems	
 
 You should be able to drive system development with tests

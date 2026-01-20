@@ -1,8 +1,15 @@
 # Uncle Bob - Clean Code
 
+## When do professionals learn?
+
+Not on the job. It is not your employer's responsibility to groom your career. You take that responsibility, you learn at home. 
+Because that's what professionals do, professionals spend much more than 40 hours a week on their career. It's
+just the truth of the matter, you may not like it but that's the way it is.
+
 ## The only way to go fast is to go well
 
-What is it that is going to make you go fast tomorrow? Nothing. Only way is to go well, don't build the road blocks.
+What is it that is going to make you go fast tomorrow? Nothing. Only way is to go well, don't build the 
+road blocks.
 Make the code working (half the job), then clean the code.
 
 ## Clean code is a necessity
@@ -63,12 +70,6 @@ In order to defend and preserve the honor and profession of computer programmers
 
 9. I will never stop learning and improving my craft
 
-When do professionals learn?
-
-Not on the job. It is not your employer's responsibility to groom your career. You take that responsibility, you learn
-at home. Because that's what professionals do, professionals spend much more than 40 hours a week on their career. It's
-just the truth of the matter, you may not like it but that's the way it is.
-
 ## Importance of Unit Tests
 
 It is the unit tests that keep our code flexible, maintainable and reusable.
@@ -99,9 +100,7 @@ When the developer has shared code to QA. They should find nothing.
 
 ## Why is estimating so hard?
 
-Tasks that appear easy for a human to solve are often described by complex procedures. So when estimating, make sure you
-aren’t affected by the apparent ease of that task. Look below the surface to try to enumerate the number of procedural
-elements.
+Tasks that appear easy for a human to solve are often described by complex procedures. So when estimating, make sure you aren’t affected by the apparent ease of that task. Look below the surface to try to enumerate the number of procedural elements.
 
 ## Waterfall Model
 

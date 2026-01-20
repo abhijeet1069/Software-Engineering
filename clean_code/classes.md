@@ -11,8 +11,9 @@ rule and helps the program read like a newspaper article.
 
 ## Single Responsibility Principle
 
-We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility,
-has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.
+We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a 
+single responsibility,has a single reason to change, and collaborates with a few others to achieve the desired system 
+behaviors.
 
 Many developers fear that a large number of small, single-purpose
 classes makes it more difficult to understand the bigger picture. They are concerned that

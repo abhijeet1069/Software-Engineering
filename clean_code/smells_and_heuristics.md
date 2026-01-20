@@ -1,4 +1,4 @@
-# Smells and Heristics
+# Smells and Heuristics
 
 Code must read like newspaper. High details at top and low level details at bottom.
 As the reader can exit early, he knows at a high level how the code is working. And if he wants, he can focus 
@@ -150,7 +150,7 @@ public class DateUtils {
 
 Feature Envy is when a method is too focused on another object’s data.
 Fix it by relocating the method to the class that owns the data. 
-Feature Envy increases coupling.
+Feature Envy increases coupling. (similar to law of demeter)
 
 ```java
 //code with feature envy
@@ -286,8 +286,8 @@ private void printInvoice(List<InvoiceLine> lines) {
 
 ### Keep Configurable Data at High Levels
 
-Hardcoded values (like constants, thresholds, flags, URLs, timeouts) should not be buried deep inside your code — they should live at the top, 
-near the high-level modules (better) or configuration files (best).
+Hardcoded values (like constants, thresholds, flags, URLs, timeouts) should not be buried deep inside your code — 
+they should live at the top, near the high-level modules (better) or configuration files (best).
 
 ```java
 //Bad : to change the retry connection I will have to change to the max tries in code, What if different APIs 

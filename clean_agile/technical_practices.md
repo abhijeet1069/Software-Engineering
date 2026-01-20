@@ -1,5 +1,7 @@
 # Technical Practices
 
+Core circle of extreme programming.
+
 ## Test driven development
 
 Test-Driven Development is the corresponding practice for programmers. Every required behavior is entered twice: once as
@@ -59,7 +61,7 @@ informal, interpersonal conversation.
 Maximize the frequency and quantity of feedback. They allow us to determine when things are going wrong early enough to
 correct them.
 
-Simplicity:
+### Simplicity
 
 Simplicity is directness—directness in the code, and directness in communication and behavior. Keep the code simple.
 Keep the team simpler.

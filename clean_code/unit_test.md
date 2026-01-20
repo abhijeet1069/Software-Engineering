@@ -1,5 +1,7 @@
 # Unit Tests
 
+***It is the unit tests that keep our code flexible, maintainable and reusable.***
+
 ## F.I.R.S.T
 
 Clean tests should adhere to the following principles:
@@ -57,12 +59,41 @@ production code is too hard to test. You may not design the production code to b
 
 - Third Law : You may not write more production code than is sufficient to pass the currently failing test.
 
-## Keep tests clean
+## Learning Tests
+
+A learning test is a small test written to learn how an external API actually behaves.
+
+```java
+ // a simple learning test for logging
+@Test
+    public void isLogGenerating(){
+        LogUtil.logInfo("Tests executed");
+    }
+}
+```
+
+Without learning tests:
+- You guess API behavior
+- You rely on memory
+- Docs get outdated
+- Subtle behavior surprises you later
+
+With learning tests:
+- You experiment safely
+- You document behavior in code
+- You detect breaking changes early
+- You gain confidence
+
+## Tests
+
+### Test Single concept per test
+
+### Keep tests clean
 
 Test code is as important as production code. It is not a second class citizen. It requires thought, design and care.
 It must be kept as clean as production code.
 
-## Build Operate Check Pattern
+### Build Operate Check Pattern
 
 Tests following this pattern are readable and easier to understand, debug and maintain
 
@@ -84,10 +115,6 @@ void testAddTwoNumbers() {
 }
 
 ```
-
-## Test Single concept per test
-
-## Tests
 
 ### Insufficient Tests
 
@@ -121,5 +148,3 @@ The code within the testing API does have a different set of engineering standar
 code. It must still be simple, succinct, and expressive, but it need not be as efficient as
 production code. After all, it runs in a test environment, not a production environment, and
 those two environment have very different needs.
-
-It is the unit tests that keep our code flexible, maintainable and reusable.

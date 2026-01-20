@@ -1,5 +1,7 @@
 # Team practices
 
+Middle circle of extreme programming.
+
 ## Overtime
 
 Working overtime is not a way to show your dedication to your employer. What it shows is that you are a bad planner,
@@ -28,12 +30,12 @@ someone else.
 
 ## Standup Meetings
 
-• This meeting is optional. Many teams get by just fine without one.
-• It can be less often than daily. Pick the schedule that makes sense to you.
-• It should take ~10 minutes, even for large teams.
-• This meeting follows a simple formula.
+- This meeting is optional. Many teams get by just fine without one.
+- It can be less often than daily. Pick the schedule that makes sense to you.
+- It should take ~10 minutes, even for large teams.
+- This meeting follows a simple formula.
 
-The basic idea is that the team members stand9 in a circle and answer three questions:
+The basic idea is that the team members stand in a circle and answer three questions:
 
 1. What did I do since the last meeting?
 2. What will I do until the next meeting?

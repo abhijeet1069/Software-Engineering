@@ -9,16 +9,10 @@ Making things work is the minimum I expect from someone who is paid for it.
 
 How it is done is as important as getting it done.
 
-Real engineers are not divided into "DSA people" and "API people". This is a false dichotomy many developers believe 
-early in their journey. Reality:
-a) Strong engineers know algorithms and
-b) Build real systems (APIs, services, tools, architecture)
-Both are needed, because both solve different parts of real problem.
+**The day we stop learning and practicing is the day we start losing control of our careers.**
 
-The day we stop learning and practicing is the
-day we start losing control of our careers. The more knowledge and skills we have, the easier it is to own our 
-careers—that
-means we are able to choose where, when, and for whom to work, and how much to charge for our services.
+The more knowledge and skills we have, the easier it is to own our careers — that means we are able to choose 
+where, when, and for whom to work, and how much to charge for our services.
 
 ## Seniority
 
@@ -37,3 +31,11 @@ Java applications for large organizations but totally inexperienced in writing g
 
 Ignorance is the single greatest impediment to throughput, meaning that if we reduce the level of our ignorance as
 fast as we can, we can be far more productive and and efficient.
+
+## False dichotomy
+
+Real engineers are not divided into "DSA people" and "API people". This is a false dichotomy many developers believe 
+early in their journey. Reality:
+a) Strong engineers know algorithms and
+b) Build real systems (APIs, services, tools, architecture)
+Both are needed, because both solve different parts of real problem.

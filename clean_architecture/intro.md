@@ -4,11 +4,11 @@
 
 ## Goal of clean architecture
 
-The goal of software architecture is to minimize the human resources required to build and maintain the required system.
+The primary purpose of architecture is to support the lifecycle of the system. 
+Good architecture makes the system easy to understand, easy to develop, easy to maintain, and easy to deploy. 
+The ultimate goal is to minimize the lifetime cost of the system and to maximize programmer productivity.
 
-The measure of design quality is simply the measure of the effort required to meet the needs of the customer. 
-If that effort is low, and stays low throughout the lifetime of the system, the design is good. 
-If that effort grows with each new release, the design is bad. It’s as simple as that.
+A good architect maximizes the number of decisions not made.
 
 Every software system provides two different values to the stakeholders: **behavior and structure.**
     Software developers are responsible for ensuring that both those values remain high. Unfortunately, they often 
