@@ -2,9 +2,9 @@
 
 ## When do professionals learn?
 
-Not on the job. It is not your employer's responsibility to groom your career. You take that responsibility, you learn at home. 
-Because that's what professionals do, professionals spend much more than 40 hours a week on their career. It's
-just the truth of the matter, you may not like it but that's the way it is.
+Not on the job. It is not your employer's responsibility to groom your career. You take that responsibility, 
+you learn at home. Because that's what professionals do, professionals spend much more than 40 hours a week on 
+their career. It's just the truth of the matter, you may not like it but that's the way it is.
 
 ## The only way to go fast is to go well
 
@@ -100,7 +100,9 @@ When the developer has shared code to QA. They should find nothing.
 
 ## Why is estimating so hard?
 
-Tasks that appear easy for a human to solve are often described by complex procedures. So when estimating, make sure you aren’t affected by the apparent ease of that task. Look below the surface to try to enumerate the number of procedural elements.
+Tasks that appear easy for a human to solve are often described by complex procedures. So when estimating, 
+make sure you aren’t affected by the apparent ease of that task. Look below the surface to try to enumerate the 
+number of procedural elements.
 
 ## Waterfall Model
 
@@ -113,11 +115,96 @@ Developed by Winston Royce in 1970
 - Testing
 - Operations
 
-## Agile
+## Expectations of your CTO
 
-- Break a project into fixed size chunks or iteration.
-- Measure how much time you take to complete an iteration.
-- Study those numbers and adjust accordingly.
+### We will not ship shit
 
-Each iteration produces data, not code.
-Agile may improve speed of project, but it actually tells us what is the speed of the project.
+Any system that requires its users to think like programmers in order to enter data in the expected format is crap.
+
+### Continuous technical readiness
+
+At the end of each iteration all the coding, all the testing, all the documentation, and all the stabilization for the
+stories should be implemented.
+
+Is it possible for the system to be technically deployable every week or two?
+Of course it is. The team simply has to pick a batch of stories that is small enough to allow them to complete all the 
+deployment readiness tasks before the end of the iteration. They’d better be automating the vast majority of their
+testing, too.
+
+### Stable productivity
+
+Customers and managers don’t expect software teams to slow down with time. Rather, they expect that a feature similar to
+one that took two weeks at the start of a project will take two weeks a year later. They expect productivity to be
+stable over time.
+    Developers should expect no less. By continuously keeping the architecture, design, and code as clean as possible,
+    they can keep their productivity high and prevent the otherwise inevitable spiral into low productivity and redesign.
+
+### Inexpensive adaptability
+
+Software is a compound word. The word “ware” means “product.” The word “soft” means easy to change. Therefore, software
+is a product that is easy to change.
+
+If a change to the requirements breaks your architecture, then your architecture sucks.
+We developers should celebrate change because that’s why we are here.
+Changing requirements is the name of the whole game. Those changes are the justification for our careers and our
+salaries. Our jobs depend on our ability to accept and engineer changing requirements and to make those changes
+relatively inexpensive.
+
+### Continuous Improvement
+
+The older a software system is, the better it should be.
+The design and architecture of a software system should get better with time. The structure of the code should improve,
+and so should the efficiency and throughput of the system.
+
+### Fearless Competence
+
+Why don’t most software systems improve with time? Fear. More specifically, fear of change.
+
+### QA should find nothing
+
+QA should find no faults with the system. When QA runs their tests, they should come back saying that everything works
+as required. Any time QA finds a problem, the development team should find out what went wrong in their process and fix
+it so that next time QA will find nothing.
+
+### Test automation
+
+Manual tests are always eventually lost.
+
+However, there is a more insidious mechanism for losing manual tests.
+Developers seldom deliver to QA on time. This means that QA has less time than planned to run the tests they need to run.
+So, QA must choose which tests they believe are most appropriate to run in order to make the shipment deadline.
+And so some tests aren’t run. They are lost.
+
+And besides, humans are not machines. Asking humans to do what machines can do is expensive, inefficient, and immoral.
+There is a much better activity for which QA should be employed—an activity that uses their human creativity and
+imagination.
+
+### We cover for each other
+
+I don’t expect the team to keep knowledge in silos; I expect knowledge to be shared. If I need to reassign half the
+members of the team to a new project, I do not expect that half the knowledge will be removed from the team.
+
+### Honest Estimates
+
+I expect estimates, and I expect them to be honest.
+
+For example, you may not know how long something will take, but you can compare one task to another in relative terms.
+You may not know how long it will take to build the Login page, but you might be able to tell me that the
+Change Password page will take about half the time as Login. Relative estimates like that are immensely valuable.
+
+### You need to say "NO"
+
+I expect that, no matter how much schedule pressure you feel, no matter how many managers are demanding results, you
+will say “no” when the answer really is “no.”
+
+### Continuous Agressive Learning
+
+As CTO, I expect you to keep learning. Our industry changes quickly. We must be able to change with it.
+**So learn, learn, learn!** Sometimes the company can afford to send you to courses and conferences. Sometimes the
+company can afford to buy books and training videos. But if not, then you must find ways to continue learning without
+the company’s help.
+
+### Mentoring
+
+As CTO I expect you to teach. Indeed, the best way to learn is to teach. So when new people join the team, teach them.
+Learn to teach each other.
