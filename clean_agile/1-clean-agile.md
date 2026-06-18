@@ -1,38 +1,31 @@
-# Clean Agile - Back to Basics
+# Agile
 
-Agile is a process wherein a project is subdivided into iterations.
-The output of each iteration is measured and used to continuously evaluate the schedule. Features are implemented in the
-order of business value so that the most valuable things are implemented first. Quality is kept as high as possible.
-The schedule is primarily managed by manipulating scope.
+All projects are constrained by a trade-off called the Iron Cross of Project Management: good,
+fast, cheap, done—pick three! Good project managers understand this trade-off and strive for
+results that are done good enough within an acceptable time frame and budget, which provide
+the crucial features.
 
-## Agile produces data
+ > Agile produces data that helps managers taking good decisions. 
 
-Agile development is first and foremost a feedback-driven approach.
-Each week, each day, each hour, and even each minute is driven by looking at the results of the previous week, day,
-hour, and minute, and then making the appropriate adjustments.
+<img src="./pic/iron_cross.png" width="50%" alt="Iron Cross of Project management">
 
-## Iteration in Agile
+## Agile Manifesto
 
-Every iteration in the project, from the beginning to the end, will have some analysis, design and implementation in
-it. In an Agile project, we are always analyzing and designing.
+We are uncovering better ways of developing software by doing it and helping
+others do it.
 
-## Iron cross of project management
+• Individuals and interactions over processes and tools
+• Working software over comprehensive documentation
+• Customer collaboration over contract negotiation
+• Responding to change over following a plan
 
-Good, Fast, Cheap, Done. Choose any 3, you can't have 4th
+That is, while there is value in the items on the right, we value the items on the
+left more
 
-### Increasing staff
+## Circle of life
 
-![Adding more staff](./pic/staff.png)
-
-### Decreasing Quality
-
-Producing crap does not make you go faster, it makes you go slower. This is the lesson you learn after you’ve been a
-programmer for 20 or 30 years. There is no such thing as quick and dirty. Anything dirty is slow.
-The only way to go fast, is to go well.
-
-## Extreme Programming
-
-Flaccid Agile is exactly what happens when teams keep the outer rings but hollow out the center.
+- Agile = Philosophy
+- XP    = Implementation
 
 ![Circle of life](./pic/circle_of_life.png)
 
@@ -81,8 +74,6 @@ Represents the technical practices that guide and constrain the programmers to e
               roles frequently.
 
 - Mob Programming: If there are more than two developers, work as a team with clear rotations.
-
-
 
 ## XP with Agile
 
