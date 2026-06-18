@@ -57,11 +57,9 @@ The goal is:
 
 Learn enough to become employable, get the backend role, and then continue learning for the next 20 years.
 
-⸻
-
 The Four Quadrants
 
-Do Now (High Value, Low Cost)
+### Do Now (High Value, Low Cost)
 
 These activities provide the highest return for the least effort and directly improve interview readiness.
 
@@ -84,14 +82,10 @@ Start applying once you have:
 * SQL proficiency
 * Basic DSA preparation
 
-⸻
-
-Do Later (High Value, High Cost)
+### Do Later (High Value, High Cost)
 
 These are excellent investments but should not delay the switch.
 But do after obtaining a backend role.
-
-⸻
 
 1. Build Your Own Database
 
@@ -103,9 +97,7 @@ But do after obtaining a backend role.
 
 5. Physics and Computer Graphics Project
 
-⸻
-
-Do Much Later (Low Value, Low Cost)
+### Do Much Later (Low Value, Low Cost)
 
 Interesting but not immediately useful.
 
@@ -116,13 +108,9 @@ Examples:
 * Learning multiple frontend frameworks
 * Fancy logging frameworks
 
-⸻
-
-Avoid for Now (Low Value, High Cost)
+### Avoid for Now (Low Value, High Cost)
 
 These activities create the illusion of progress while delaying the switch.
-
-⸻
 
 1. Learn Everything Before Applying
 
@@ -141,8 +129,6 @@ Result:
 Years pass.
 
 No interviews.
-
-⸻
 
 2. Perfect Project Syndrome
 
