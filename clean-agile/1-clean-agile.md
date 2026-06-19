@@ -6,7 +6,7 @@ good, fast, cheap, done—pick three!
 results that are done good enough within an acceptable time frame and budget, which provide
 the crucial features.
 
-<img src="./pic/iron-cross.png" width="50%" alt="Iron Cross of Project management">
+<img src="./img/iron-cross.png" width="50%" alt="Iron Cross of Project management">
 
 - Break a project into fixed size chunks or iteration.
 - Measure how much time you take to complete an iteration.
@@ -33,7 +33,7 @@ left more
 - Agile = Philosophy
 - XP    = Implementation
 
-<img src="./pic/circle-of-life.png" width="50%" alt="Circle of life">
+<img src="./img/circle-of-life.png" width="50%" alt="Circle of life">
 
 ### Outer Ring
 
@@ -62,13 +62,6 @@ The inner ring contains technical practices:
 - Simple Design: preventing wasted efforts
 - Refactoring: refining and improving all work products continuously
 - Test-Driven Development: maintaining quality when going quickly
-
-
-## Pair programming strategy:
-
-- Driver-Navigator: One person (Driver) writes the code while the other (Navigator) reviews and suggests improvements.
-- Ping-Pong Pairing: One writes a test, and the other writes code to make the test pass, alternating roles frequently.
-- Mob Programming: If there are more than two developers, work as a team with clear rotations.
 
 ## Reasons for Agile
 
