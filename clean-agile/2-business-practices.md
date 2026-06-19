@@ -1,4 +1,4 @@
-# Business practices
+# Extreme Programming (XP) Business practices
 
 A company always has more ideas than it can implement:
 
@@ -22,7 +22,7 @@ That’s exactly what this matrix answers.
 3. Not valuable, but expensive: don’t do this stories, discard them.
 4. Not valuable, but cheap: consider doing those stories (much) later.
 
-## Application
+## Application 1 : Sample company
 
 Suppose a product owner has four possible features:
 
@@ -45,7 +45,7 @@ Using the matrix:
 * Dark mode → Do Much Later
 * VR interface → Never Do
 
-## Application 2 Backend Switch Roadmap
+## Application 2 : Backend Switch Roadmap
 
 Guiding Principle
 
@@ -134,15 +134,17 @@ No interviews.
 
 Bad path:
 
-Need Microservices
-Need Kafka
-Need Redis
-Need Kubernetes
-Need Monitoring
-Need CI/CD
-Need Service Mesh
-Need Cloud Native Architecture
+- Need Microservices
+- Need Kafka
+- Need Redis
+- Need Kubernetes
+- Need Monitoring
+- Need CI/CD
+- Need Service Mesh
+- Need Cloud Native Architecture
 
 Result:
 
 Project never finishes.
+
+<img src="./pic/staff.png" width="50%" alt="Cost of adding staff">
